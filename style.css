@@ -44,7 +44,7 @@ body{
     background-color: var(--azul-dnc);
     border: 0px;
     width: 80px;
-       height: 40px;
+    height: 40px;
     font-family: var(--fonte-padrao);
     font-size: 20px;
     font-weight: 600;
@@ -64,8 +64,6 @@ section{
 header{
     color:white;
     font-family: var(--fonte-padrao);
-
-
 }
 header h1{
     text-transform: uppercase;
@@ -78,7 +76,6 @@ header h2{
     text-align: center;
     font-size: 40px;
     font-weight: 700px;
-    text-align: center;
     margin-bottom: 100px;
 }
 header .invert{
@@ -269,7 +266,7 @@ footer .linha2 a:hover{
         font-size: 17px;
     }
 
-    /* Ajustando Footer*/
+    /* Ajustando Footer */
 
     footer .linha1{
         flex-direction: column;
