@@ -209,7 +209,8 @@ footer .linha2{
     display: flex;
     height: 35px;
     justify-content: center;
-    margin: 10px;
+    margin: 0px;
+    padding: 10px;
 }
 footer .linha2 a{
     font-family: var(--fonte-padrao);
@@ -268,5 +269,14 @@ footer .linha2 a:hover{
         font-size: 17px;
     }
 
-    
+    /* Ajustando Footer*/
+
+    footer .linha1{
+        flex-direction: column;
+    }
+
+    footer .endereco{
+        width:95%;
+        margin-bottom: 20px;
+    }
 }
